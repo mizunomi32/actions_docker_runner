@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  runner:
+    build: .
+    command: /actions-runner/entrypoint.sh
+    volumes: 
+        - ${PWD}/runner-data:/actions-runner
+    env_file:
+        - .env

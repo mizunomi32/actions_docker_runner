@@ -1,0 +1,4 @@
+runner-data/*
+!runner-data/autoconf.sh
+!runner-data/entrypoint.sh
+.env
